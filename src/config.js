@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Wings" },
@@ -48,7 +48,7 @@ const extraMetadata = {
 
 // NFTPort Info
 // ** REQUIRED **
-const AUTH = "11b98445-4527-4669-83c9-94942cbd1c57";
+const AUTH = "9eeeab0d-335e-44d7-aa5e-818da0c65818";
 const LIMIT = 2; // Your API key rate limit
 const CONTRACT_NAME = 'Bold Horsy Collective';
 const CONTRACT_SYMBOL = 'BHC';
@@ -59,13 +59,13 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xd2889821B555FADAf72DD74AD41B5Ebf5906Fd82"; // Address that will receive the royalty
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xf545CAC80255f4480229D405A4641594e9849007"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "Unknown"; // Replace with what you want the generic titles to say.
 const GENERIC_DESCRIPTION = "Unknown"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = [
-  "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh",
+  "",
 ]; // Replace with your generic image(s). If multiple, separate with a comma.
 const REVEAL_PROMPT = true; // Set to false if you want to disable the prompt to confirm each reveal.
 const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.
